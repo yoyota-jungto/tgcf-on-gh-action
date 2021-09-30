@@ -8,7 +8,7 @@ forwards:
   - -595083081
   offset: 85
   end: 0
-show_forwarded_from: false
+show_forwarded_from: true
 live:
   delete_sync: false
   delete_on_edit: null
