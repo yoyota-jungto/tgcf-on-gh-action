@@ -10,12 +10,9 @@
 ########################################
 
 forwards:
-  # this section defines all the sources and destinations
-  - source: "-595083081"
-    dest: [me, "-595809887"] # list of chat ids of the destinations
-    # me means, the messages will be saved in your Saved Messages in telegram
-    offset: 0 # from where to start (0 means from the first message of source)
-    # offset will automatically be updated when the program runs
+  - source: "-1001214634079"
+    dest: [me, "-595809887", "-1001543196901", "-595083081"]
+    offset: 0
   # - source: -1001
   #   dest: []
   #   offset: 0
