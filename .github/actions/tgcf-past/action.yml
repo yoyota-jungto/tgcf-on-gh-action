@@ -1,9 +1,5 @@
 name: tgcf past
 
-on:
-  schedule:
-    - cron:  "*/5 * * * *"
-
 description: Forward Telegram messages from source to destination using tgcf periodically.
 
 runs:
